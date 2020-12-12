@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="chuck_style.css">
+  <title>Chuck Norris</title>
+</head>
+
+<body>
+  <div class="heading">
+    <h1>Chuck Norris API</h1>
+    <p>If chuck norris pressed F12, the computer would roundhouse kick the internet in the face.</p>
+  <br />
+  </div>
+  <div class="chuck-container">
+    <div class="chuck-flexbox">
+      <div class="flexgrid-item">
+        <img src="chucknorris.png" class="chuck-img"></img>
+      </div>
+      <div class="flexgrid-item">
+        <div class="chuck-form">
+          <form>
+              <lable for="number">Number of Jokes</lable>
+              <input type="number" id="number">
+              <button class="get-jokes-button"> Get Jokes</button>
+          </form>
+          <div class="message"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul class="chuck-jokes"></ul>
+
+</body>
+<script src="chuck_app.js"></script>
+</html>
